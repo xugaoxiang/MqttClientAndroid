@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="hdpi"
+    format="7"
+    timestamp="17600814295406"
+    token="-1014195857879970570"
+    verifier="FIELD_ADDED" >
+
+    <task
+        name="javac"
+        duration="121" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="43" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+
+    <build timestamp="17267067710085" >
+        <artifact
+            location="/home/djstava/Downloads/MqttClientAndroid/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="17600814295406"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

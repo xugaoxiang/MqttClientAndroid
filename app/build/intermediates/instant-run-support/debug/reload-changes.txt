@@ -1,0 +1,10 @@
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$3$1$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$3$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$4$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$2$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$4$1$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$1$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$2$1$override.class
+CHANGED,/home/djstava/Downloads/MqttClientAndroid/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/xugaoxiang/mqttclientandroid/MainActivity$1$1$override.class
