@@ -1,18 +1,25 @@
+### 软硬件环境
+
+- ubuntu 16.04 64bit
+- Android Studio 2.0
+- OTT BOx with android 5.1.1
+- mosquitto-1.4.10
+
 ### 前言
 
 MQTT(Message Queuing Telemetry Transport),是一个物联网传输协议，它被设计用于轻量级的发布/订阅式消息传输，旨在为低带宽和不稳定的网络环境中的物联网设备提供可靠的网络服务。MQTT是专门针对物联网开发的轻量级传输协议。MQTT协议针对低带宽网络，低计算能力的设备，做了特殊的优化，使得其能适应各种物联网应用场景。本文旨在研究其在消息发布/订阅/接收场景下的应用.
 
 ### MQTT协议中的几个重要概念
 
-* 服务端
+- 服务端
 
   是发送消息的客户端和请求订阅的客户端之间的中介,又称为broker.它接收来自客户端的网络连接;接收客户端发布的消息;处理客户端的订阅和取消订阅请求;转发相应消息给符合条件的已订阅客户端.
 
-* 客户端
+- 客户端
 
   订阅相关的消息;发布消息给其它相关的客户端
 
-* 订阅
+- 订阅
 
   订阅包含一个主题过滤器和一个最大的服务质量(QoS)等级.客户端只有订阅了相关主题时,才能接收到对应主题的消息
 
@@ -23,7 +30,6 @@ mosquitto是一款实现了MQTT协议v3.1版的开源消息代理软件,下载�
 ```
 tar xvf mosquitto-1.4.10.tar.gz
 cd mosquitto-1.4.10
-vi config.mk(将WITH_SRV:=yes中的yes改为no,否则会报ares.h文件找不到的错误)
 make
 sudo make install
 ```
@@ -85,6 +91,26 @@ mosquitto_pub -t shopping -m "Sorry,I have no time."
 ### Android工程下载
 
 <https://github.com/djstava/MqttClientAndroid>
+
+### mosquitto编译错误及解决方法
+
+![mtqq_mosquitto](https://raw.githubusercontent.com/xugaoxiang/material/master/images/android/mqtt/mqtt_07.png)
+
+```
+sudo apt install libssl-dev
+```
+
+![mtqq_mosquitto](https://raw.githubusercontent.com/xugaoxiang/material/master/images/android/mqtt/mqtt_08.png)
+
+```
+sudo apt install libc-ares-dev
+```
+
+![mtqq_mosquitto](https://raw.githubusercontent.com/xugaoxiang/material/master/images/android/mqtt/mqtt_10.png)
+
+```
+sudo apt install uuid-dev
+```
 
 ### 参考文献
 
