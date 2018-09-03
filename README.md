@@ -90,7 +90,7 @@ mosquitto_pub -t shopping -m "Sorry,I have no time."
 
 ### Android工程下载
 
-<https://github.com/djstava/MqttClientAndroid>
+<https://code.xugaoxiang.com/xugaoxiang/MQTTClientForAndroid>
 
 ### broker增加认证
 
